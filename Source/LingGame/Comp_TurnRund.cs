@@ -16,7 +16,7 @@ public class Comp_TurnRund : ThingComp
                 var position = parent.Position;
                 var map = parent.Map;
                 parent.Destroy();
-                var unused = new Random();
+                _ = new Random();
                 GenSpawn.Spawn(ThingMaker.MakeThing(ZeroTechDefOf.MechSerumHealer), position, map);
             },
             defaultLabel = "LingXCG_Change".Translate(),

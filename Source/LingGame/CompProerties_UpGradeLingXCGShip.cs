@@ -6,12 +6,11 @@ namespace LingGame;
 
 public class CompProerties_UpGradeLingXCGShip : CompUseEffect
 {
-    public override bool CanBeUsedBy(Pawn p, out string failReason)
+    public override AcceptanceReport CanBeUsedBy(Pawn p)
     {
-        failReason = "NoLingXCGShipNeedUpGrade".Translate(p.Name.ToStringShort);
         if (NeedGradeHediffs(p).Count == 0)
         {
-            return false;
+            return "NoLingXCGShipNeedUpGrade".Translate(p.Name.ToStringShort);
         }
 
         return true;

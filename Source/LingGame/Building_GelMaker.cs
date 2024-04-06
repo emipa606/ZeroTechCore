@@ -15,12 +15,11 @@ public class Building_GelMaker : Building_Storage
     public override string GetInspectString()
     {
         var inspectString = base.GetInspectString();
-        return string.Concat(new[]
-        {
+        return string.Concat([
             inspectString,
             "\n",
             $"Mass:{HaveMass}kg"
-        });
+        ]);
     }
 
     public override void TickRare()
