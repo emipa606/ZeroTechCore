@@ -8,7 +8,7 @@ public class CompProerties_UpGradeLingXCGShip : CompUseEffect
 {
     public override AcceptanceReport CanBeUsedBy(Pawn p)
     {
-        if (NeedGradeHediffs(p).Count == 0)
+        if (needGradeHediffs(p).Count == 0)
         {
             return "NoLingXCGShipNeedUpGrade".Translate(p.Name.ToStringShort);
         }
@@ -21,7 +21,7 @@ public class CompProerties_UpGradeLingXCGShip : CompUseEffect
         string title = "YouFeelEnergySurgingInsideYou".Translate();
         string text = "SelectAChipUpgrade".Translate();
         var diaNode = new DiaNode(text);
-        foreach (var item in NeedGradeHediffs(usedBy))
+        foreach (var item in needGradeHediffs(usedBy))
         {
             var diaOption = new DiaOption(item.def.label)
             {
@@ -40,7 +40,7 @@ public class CompProerties_UpGradeLingXCGShip : CompUseEffect
         Find.WindowStack.Add(new Dialog_NodeTree(diaNode, true, true, title));
     }
 
-    private List<Hediff> NeedGradeHediffs(Pawn pawn)
+    private static List<Hediff> needGradeHediffs(Pawn pawn)
     {
         var list = new List<Hediff>();
         foreach (var hediff in pawn.health.hediffSet.hediffs)

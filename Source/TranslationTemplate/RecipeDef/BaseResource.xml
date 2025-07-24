@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make zoretech alloy -->
+  <MakeZeroTechAlloy.label>make zoretech alloy</MakeZeroTechAlloy.label>
+  <!-- EN: make zoretech alloy. -->
+  <MakeZeroTechAlloy.description>make zoretech alloy.</MakeZeroTechAlloy.description>
+  <!-- EN: make zoretech alloy. -->
+  <MakeZeroTechAlloy.jobString>make zoretech alloy.</MakeZeroTechAlloy.jobString>
+  <!-- EN: make zoretech weave -->
+  <MakeZeroTechWeave.label>make zoretech weave</MakeZeroTechWeave.label>
+  <!-- EN: make zoretech weave. -->
+  <MakeZeroTechWeave.description>make zoretech weave.</MakeZeroTechWeave.description>
+  <!-- EN: make zoretech weave. -->
+  <MakeZeroTechWeave.jobString>make zoretech weave.</MakeZeroTechWeave.jobString>
+</LanguageData>

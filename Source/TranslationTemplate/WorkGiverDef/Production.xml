@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make item -->
+  <MakeZeroTechThing.label>make item</MakeZeroTechThing.label>
+  <!-- EN: working at -->
+  <MakeZeroTechThing.gerund>working at</MakeZeroTechThing.gerund>
+  <!-- EN: work -->
+  <MakeZeroTechThing.verb>work</MakeZeroTechThing.verb>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 中型空投炸弹 -->
+  <AerialBomb100kg.label>中型空投炸弹</AerialBomb100kg.label>
+  <!-- EN: 迷你空投炸弹 -->
+  <AerialBomb20kg.label>迷你空投炸弹</AerialBomb20kg.label>
+  <!-- EN: 小型空投炸弹 -->
+  <AerialBomb50kg.label>小型空投炸弹</AerialBomb50kg.label>
+  <!-- EN: 重型空投炸弹 -->
+  <AerialBombNkg.label>重型空投炸弹</AerialBombNkg.label>
+</LanguageData>

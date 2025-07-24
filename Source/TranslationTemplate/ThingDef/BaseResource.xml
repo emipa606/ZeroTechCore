@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Zero Tech Alloy -->
+  <ZeroTechAlloy.label>Zero Tech Alloy</ZeroTechAlloy.label>
+  <!-- EN: maybe? -->
+  <ZeroTechAlloy.description>maybe?</ZeroTechAlloy.description>
+  <!-- EN: zero tech gel -->
+  <ZeroTechGel.label>zero tech gel</ZeroTechGel.label>
+  <!-- EN: gel,very small. -->
+  <ZeroTechGel.description>gel,very small.</ZeroTechGel.description>
+  <!-- EN: Zero Tech Weave -->
+  <ZeroTechWeave.label>Zero Tech Weave</ZeroTechWeave.label>
+  <!-- EN: about? -->
+  <ZeroTechWeave.description>about?</ZeroTechWeave.description>
+</LanguageData>

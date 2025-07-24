@@ -4,13 +4,13 @@ namespace LingGame;
 
 public class PowerBelt : Apparel
 {
-    public float Power = 100f;
+    private float Power = 100f;
 
-    public int ReNeedTime;
+    private int ReNeedTime;
 
-    public float PowerReS => this.GetStatValue(StatDefOf.EnergyShieldRechargeRate);
+    private float PowerReS => this.GetStatValue(StatDefOf.EnergyShieldRechargeRate);
 
-    public float PowerMas => this.GetStatValue(StatDefOf.EnergyShieldEnergyMax);
+    private float PowerMas => this.GetStatValue(StatDefOf.EnergyShieldEnergyMax);
 
     public float ReMeedTimemas => this.GetStatValue(StatDef.Named("SmokepopBeltRadius"));
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Zero Bottle Cap -->
+  <LingZeroTechBottleCap.label>Zero Bottle Cap</LingZeroTechBottleCap.label>
+  <!-- EN: A fantastic bottle cap, you feel very happy just holding it,You even want to put it on your ***.\nCan be used to upgrade chips,or it becomes [data deletion] and [missing value] -->
+  <LingZeroTechBottleCap.description>A fantastic bottle cap, you feel very happy just holding it,You even want to put it on your ***.
+Can be used to upgrade chips,or it becomes [data deletion] and [missing value]</LingZeroTechBottleCap.description>
+  <!-- EN: Swallow the bottle cap -->
+  <LingZeroTechBottleCap.comps.CompUsable.useLabel>Swallow the bottle cap</LingZeroTechBottleCap.comps.CompUsable.useLabel>
+  <!-- EN: Zero Power Core -->
+  <LingZeroTechPowerCore.label>Zero Power Core</LingZeroTechPowerCore.label>
+  <!-- EN: a gel,but have more power -->
+  <LingZeroTechPowerCore.description>a gel,but have more power</LingZeroTechPowerCore.description>
+  <!-- EN: use it -->
+  <LingZeroTechPowerCore.comps.CompUsable.useLabel>use it</LingZeroTechPowerCore.comps.CompUsable.useLabel>
+</LanguageData>

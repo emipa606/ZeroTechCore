@@ -4,7 +4,7 @@ namespace LingGame;
 
 public class LingComp_TimeBomb : ThingComp
 {
-    public LingCompProerties_TimeBomb Props => (LingCompProerties_TimeBomb)props;
+    private LingCompProerties_TimeBomb Props => (LingCompProerties_TimeBomb)props;
 
     public override void CompTick()
     {

@@ -1,12 +1,13 @@
 using System.Collections.Generic;
 using RimWorld;
+using RimWorld.Planet;
 using Verse;
 
 namespace LingGame;
 
 public class StockGenerator_BuyAnything : StockGenerator
 {
-    public override IEnumerable<Thing> GenerateThings(int forTile, Faction faction = null)
+    public override IEnumerable<Thing> GenerateThings(PlanetTile planetTile, Faction faction = null)
     {
         yield break;
     }
