@@ -1,3 +1,4 @@
+using System.Linq;
 using RimWorld;
 using Verse;
 
@@ -13,12 +14,9 @@ public class CompProerties_ZeroTechPowerCoreUsed : CompUseEffect
             usedBy.skills.skills.RandomElement(),
             usedBy.skills.skills.RandomElement()
         };
-        foreach (var skillRecord in array)
+        foreach (var skillRecord in array.Where(skill => skill.levelInt.Inbounds(0, 19)))
         {
-            if (skillRecord.levelInt.Inbounds(0, 19))
-            {
-                skillRecord.Level++;
-            }
+            skillRecord.Level++;
         }
 
         Messages.Message(

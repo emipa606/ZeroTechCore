@@ -1,13 +1,13 @@
 # [ZeroTech-Core (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2608812829)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of LingLuos mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2208725011
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 Zero Technology-Core Package
 When you decide to take this path, you can no longer look back
@@ -30,13 +30,13 @@ Zero traders: several extreme traders, you can sell them any marketable items, t
 Language: Simplified Chinese
 Sharing Agreement:MIT
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -44,4 +44,4 @@ Sharing Agreement:MIT
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/ZeroTechCore?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2608812829) | tags:  zero building materials
+[![Image](https://img.shields.io/github/v/release/emipa606/ZeroTechCore?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2608812829) | zero building materials

@@ -14,7 +14,7 @@ public class PowerBelt : Apparel
 
     public float ReMeedTimemas => this.GetStatValue(StatDef.Named("SmokepopBeltRadius"));
 
-    private bool CanReP => true;
+    private static bool CanReP => true;
 
     public void UsePower(float oe)
     {

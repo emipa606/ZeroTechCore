@@ -6,4 +6,19 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="LingGame/ZeroTechCore.csproj" />
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/BaseResource.xml" />
+    <File Path="../1.7/Defs/CoreResource.xml" />
+    <File Path="../1.7/Defs/Ethereal_Skyfallers.xml" />
+    <File Path="../1.7/Defs/Floor.xml" />
+    <File Path="../1.7/Defs/Furniture.xml" />
+    <File Path="../1.7/Defs/Production.xml" />
+    <File Path="../1.7/Defs/TraderKinds_LingSky.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjects/">
+    <File Path="../1.7/Defs/ResearchProjects/ResearchProjects_Base.xml" />
+  </Folder>
 </Solution>

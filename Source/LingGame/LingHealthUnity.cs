@@ -1,19 +1,13 @@
+using System.Linq;
 using Verse;
 
 namespace LingGame;
 
-public class LingHealthUnity
+public static class LingHealthUnity
 {
-    public BodyPartRecord GetBodyPart(Pawn pawn, string bodypartdef)
+    public static BodyPartRecord GetBodyPart(Pawn pawn, string bodypartdef)
     {
-        foreach (var notMissingPart in pawn.health.hediffSet.GetNotMissingParts())
-        {
-            if (notMissingPart.def.defName.Contains(bodypartdef))
-            {
-                return notMissingPart;
-            }
-        }
-
-        return null;
+        return pawn.health.hediffSet.GetNotMissingParts()
+            .FirstOrDefault(part => part.def.defName.Contains(bodypartdef));
     }
 }

@@ -7,7 +7,7 @@ namespace LingGame;
 
 public class StockGenerator_BuyAnything : StockGenerator
 {
-    public override IEnumerable<Thing> GenerateThings(PlanetTile planetTile, Faction faction = null)
+    public override IEnumerable<Thing> GenerateThings(PlanetTile forTile, Faction faction = null)
     {
         yield break;
     }
